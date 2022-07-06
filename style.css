@@ -1,0 +1,52 @@
+.snippet-quote {
+    background: url('data:image/svg+xml;charset=utf8,%3C?xml version="1.0" encoding="UTF-8"?%3E%3Csvg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161px" height="191px" viewBox="0 0 161 191" version="1.1"%3E%3Cg id="surface1"%3E%3Cpath style=" stroke:none;fill-rule:nonzero;fill:rgb(61%25, 85%25, 95%25);fill-opacity:0.2;" d="M 14.160156 100.945312 C 18.96875 79.628906 39.183594 22.457031 124.632812 19.789062 C 103.304688 33.265625 93.046875 46.316406 90.082031 52.964844 C 124.292969 60.683594 145.765625 94.679688 138.042969 128.902344 C 130.320312 163.121094 96.328125 184.601562 62.117188 176.882812 C 27.910156 169.160156 6.4375 135.164062 14.160156 100.945312 Z M 14.160156 100.945312 "/%3E%3C/g%3E%3C/svg%3E') -5px 2% no-repeat,url('data:image/svg+xml;charset=utf8,%3C?xml version="1.0" encoding="UTF-8"?%3E%3Csvg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161px" height="191px" viewBox="0 0 161 191" version="1.1"%3E%3Cg id="surface1"%3E%3Cpath style=" stroke:none;fill-rule:nonzero;fill:rgb(61%25, 85%25, 95%25);fill-opacity:0.2;" d="M 14.160156 100.945312 C 18.96875 79.628906 39.183594 22.457031 124.632812 19.789062 C 103.304688 33.265625 93.046875 46.316406 90.082031 52.964844 C 124.292969 60.683594 145.765625 94.679688 138.042969 128.902344 C 130.320312 163.121094 96.328125 184.601562 62.117188 176.882812 C 27.910156 169.160156 6.4375 135.164062 14.160156 100.945312 Z M 14.160156 100.945312 "/%3E%3C/g%3E%3C/svg%3E') 145px 2% no-repeat;
+}
+.quote {
+    margin-bottom: 3rem!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.625rem;
+    margin-left: -0.625rem;
+}
+
+.snippet-quote__descr {
+    font-size: 1.475rem;
+    font-weight: 300;
+    max-width: 935px;
+    padding: 45px 110px 0 70px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.snippet-quote__author {
+    font-size: .975rem;
+    padding-left: 1.375rem;
+    font-style: normal;
+}
+
+.snippet-quote__author::before {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 1px;
+    top: 8px;
+    left: 0px;
+    background-color: #025170;
+}
+
+@media (min-width: 992px) {
+    .row {
+        margin-right: -0.9375rem;
+        margin-left: -0.9375rem;
+    }
+}
